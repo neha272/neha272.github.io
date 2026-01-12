@@ -740,12 +740,22 @@
             transition: all 0.3s ease;
             border: 1px solid rgba(0, 0, 0, 0.1);
             position: relative;
+            cursor: pointer;
         }
 
             .project-card:hover {
                 transform: translateY(-10px) rotateX(5deg);
                 box-shadow: var(--shadow-intense);
             }
+        
+        a[href*="github"] .project-card {
+            display: block;
+        }
+        
+        a[href*="github"]:hover .project-card {
+            transform: translateY(-10px) rotateX(5deg);
+            box-shadow: var(--shadow-intense);
+        }
 
         .project-header {
             padding: 1.5rem;
@@ -1592,6 +1602,7 @@
                     <h2 class="section-title">Featured Projects</h2>
                     <div class="projects-grid">
 
+                        <a href="https://github.com/neha272" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
                         <div class="project-card">
                             <div class="project-header">
                                 <div style="width: 50px; height: 50px; border-radius: 10px; background: var(--primary-gradient); display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">PP</div>
@@ -1612,7 +1623,9 @@
                                 </div>
                             </div>
                         </div>
+                        </a>
 
+                        <a href="https://github.com/neha272" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
                         <div class="project-card">
                             <div class="project-header">
                                 <div style="width: 50px; height: 50px; border-radius: 10px; background: var(--secondary-gradient); display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">EC</div>
@@ -1632,7 +1645,9 @@
                                 </div>
                             </div>
                         </div>
+                        </a>
 
+                        <a href="https://github.com/neha272" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
                         <div class="project-card">
                             <div class="project-header">
                                 <div style="width: 50px; height: 50px; border-radius: 10px; background: var(--accent-gradient); display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">UR</div>
@@ -1653,7 +1668,9 @@
                                 </div>
                             </div>
                         </div>
+                        </a>
 
+                        <a href="https://github.com/neha272" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
                         <div class="project-card">
                             <div class="project-header">
                                 <div style="width: 50px; height: 50px; border-radius: 10px; background: var(--primary-gradient); display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">IU</div>
@@ -1673,7 +1690,9 @@
                                 </div>
                             </div>
                         </div>
+                        </a>
 
+                        <a href="https://github.com/neha272" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
                         <div class="project-card">
                             <div class="project-header">
                                 <div style="width: 50px; height: 50px; border-radius: 10px; background: var(--secondary-gradient); display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">WH</div>
@@ -1693,7 +1712,9 @@
                                 </div>
                             </div>
                         </div>
+                        </a>
 
+                        <a href="https://github.com/neha272" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
                         <div class="project-card">
                             <div class="project-header">
                                 <div style="width: 50px; height: 50px; border-radius: 10px; background: var(--accent-gradient); display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">CT</div>
@@ -1713,6 +1734,7 @@
                                 </div>
                             </div>
                         </div>
+                        </a>
 
                     </div>
                 </div>
